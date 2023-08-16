@@ -1,0 +1,7 @@
+.vs
+.vscode
+*.suo
+*.user
+[Bb]in
+[Oo]bj
+TestResults
