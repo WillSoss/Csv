@@ -5,7 +5,7 @@
         [Fact]
         public void ShouldReadCsv()
         {
-            using (var r = new CsvReader(@"Test Files\Csv1.csv"))
+            using (var r = new CsvReader(Path.Combine("Test Files", "Csv1.csv")))
             {
                 var data = r.Read()!;
 
@@ -25,7 +25,7 @@ break", data[5]);
         [Fact]
         public void ShouldReadCsvWithQualifiedFieldBeforeLineBreak()
         {
-            using (var r = new CsvReader(@"Test Files\Csv2.csv"))
+            using (var r = new CsvReader(Path.Combine("Test Files", "Csv2.csv")))
             {
                 var data = r.Read()!;
 
