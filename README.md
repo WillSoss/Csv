@@ -1,4 +1,4 @@
-# csv
+# WillSoss.Csv
 A lightweight, efficient, and complete implementation that will correctly deal with escaped qualifiers and line breaks in fields.
 
 ## Reading Files
