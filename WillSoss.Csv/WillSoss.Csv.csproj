@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>$(AssemblyName)</Title>
+    <Authors>WillSossamon</Authors>
+    <PackageProjectUrl>https://github.com/WillSoss/Csv</PackageProjectUrl>
+    <Copyright>© 2023 William Sossamon</Copyright>
+    <RepositoryUrl>https://github.com/WillSoss/Csv</RepositoryUrl>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <Description>A lightweight, efficient, and complete CSV reader and writer that will correctly deal with escaped qualifiers and line breaks in fields.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
