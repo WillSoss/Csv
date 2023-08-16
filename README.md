@@ -27,5 +27,6 @@ new CsvReader(filename, '~', ';');
 using var writer = new CsvWriter("c:\my-data.csv");
 
 writer.Write(new string[] { "first", "second", "third" });
-writer.Write(new int[] { 1, 2, 3 });
+
+await writer.WriteAsync(new int[] { 1, 2, 3 });
 ```
